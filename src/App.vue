@@ -1,12 +1,11 @@
 <script>
 	export default{ data() {
 	return {
-		text: 'page',
-		href: 'page.html',
+		num: 5,
 	}
     }
 }
 </script>
 <template>
-    <a href= href >text</a>
+    {{ num }}
 </template>
